@@ -30,6 +30,7 @@ CarUtils
 #### 🔶 Using
 ```c#
 using CarUtils.CarLicensePlate;
+using CarUtils.CarLicensePlate.Interfaces.Localized;
 using CarUtils.Extensions;
 ```
 
@@ -37,6 +38,7 @@ using CarUtils.Extensions;
 ```c#
 string value;
 bool search;
+bool validate;
 
 IRussianPlate plate;
 
@@ -58,7 +60,7 @@ plate = value.ToRussianPlate(search, validate);
 
 // plate.IsValid()
 Console.WriteLine(plate.IsValid());
-// Out: true
+// Out: True
 
 // plate (.ToString())
 Console.WriteLine(plate);
