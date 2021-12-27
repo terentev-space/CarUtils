@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageVersion>0.1.1</PackageVersion>
+        <Title>CarUtils</Title>
+        <Copyright>terentev-space</Copyright>
+        <PackageProjectUrl>https://github.com/terentev-space/CarUtils</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/terentev-space/CarUtils/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/terentev-space/CarUtils</RepositoryUrl>
+        <PackageTags>car</PackageTags>
+        <AssemblyVersion>0.1.1</AssemblyVersion>
+        <FileVersion>0.1.1</FileVersion>
+    </PropertyGroup>
+
+</Project>
