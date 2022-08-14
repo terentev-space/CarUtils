@@ -121,6 +121,26 @@ Console.WriteLine(plate.LettersEnPart);
 // plate.NumbersPart
 Console.WriteLine(plate.NumbersPart);
 // Out: 12345
+
+// plate.CountryInternationalName
+Console.WriteLine(plate.CountryInternationalName);
+// Out: Russian Federation
+
+// plate.CountryNationalName
+Console.WriteLine(plate.CountryNationalName);
+// Out: Российская Федерация
+
+// plate.CountryIsoCode
+Console.WriteLine(plate.CountryIsoCode);
+// Out: RU
+
+// plate.PlateInternationalRegionName
+Console.WriteLine(plate.PlateInternationalRegionName);
+// Out: Kurgan region
+
+// plate.PlateNationalRegionName
+Console.WriteLine(plate.PlateNationalRegionName);
+// Out: Курганская область
 ```
 
 ## Credits

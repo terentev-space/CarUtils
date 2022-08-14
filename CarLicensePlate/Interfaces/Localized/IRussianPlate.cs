@@ -1,6 +1,6 @@
 namespace CarUtils.CarLicensePlate.Interfaces.Localized
 {
-    public interface IRussianPlate : IInternationalPlate
+    public interface IRussianPlate : IInternationalPlate, IRegionalPlate
     {
         public string NormalizedRuPlate { get; }
 
